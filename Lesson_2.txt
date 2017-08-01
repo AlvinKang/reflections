@@ -8,8 +8,12 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+	You can run git diff --staged to compare the file on the stage with the most recent changes (and after git add) to the file's most recent commit. If the lines committed do encapsulate one logical change, then the file in the stage is ready to be committed.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches could be used if I want to do something experimental as a tanget rather than a serious upgrade to the main project. Then I can keep working on my experimental feature like I normally do, committing logical changes as I implement different things on it.
 
 How do the diagrams help you visualize the branch structure?
 
