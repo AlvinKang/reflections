@@ -23,5 +23,6 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	When you merge two branches, the non-conflicting versions of the file merge together and the commit pointer points to the current branch (via git checkout) following the merge. This allows the "feature" branch to become incoporated as part of the master branch. The diagram keeps the branches as they are, but the pointer of the "feature" branch and the master branch point to a merge commit. This allows the user to see the commits from the branch via the diagram.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	The upsides of Git's automatic merging is that whenever there aren't merge conflicts, git will handle changes from different branches automatically, leading to less hassle and more efficiency. Always merging manually would be tedious, so the user is required to merge manually when a merge conflict arises, i.e., changes to the same part of the code from two different branches. This way, the user can look at the code and, if necessary, can consult with the other branch author to discuss the final resolution before resolving the merge conflict.
