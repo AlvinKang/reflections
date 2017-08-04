@@ -14,7 +14,7 @@ Describe the differences between forks, clones, and branches.  When would you us
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    This allows for you to work offline on the fetched state of the remote. Then when you want to merge your progress with the remote's progress, you can do so by merging origin/master with master. If conflicts arise, you can inspect the differences, resolve them, and then merge accordingly.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
