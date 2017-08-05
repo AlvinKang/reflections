@@ -16,10 +16,9 @@ stored locally?
 
     This allows for you to work offline on the fetched state of the remote. Then when you want to merge your progress with the remote's progress, you can do so by merging origin/master with master. If conflicts arise, you can inspect the differences, resolve them, and then merge accordingly.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
-
-    Fill in your answer here
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+	
+	I would collaborate without using Git/GitHub by working in the same location, if possible. If we must work remotely, then we'd have to notify each other via text / email for every change made. This would definitely be chaotic and inefficient, ultimately throttling our progress. Collaborating with Git/GitHub would be the ideal option.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
